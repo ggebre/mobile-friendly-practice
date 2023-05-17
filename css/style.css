@@ -1,0 +1,15 @@
+.cls-1 {
+    fill: url(#gradient);
+}
+
+.wrap-layer{
+    position: relative;
+ }
+ .text-layer{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    height: auto;
+    top: 0;
+    left: 0;
+ }

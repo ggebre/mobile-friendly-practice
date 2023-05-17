@@ -1,15 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .cls-1 {
     fill: url(#gradient);
 }
+.outer-container {
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+}
 
-.wrap-layer{
+.container{
     position: relative;
  }
- .text-layer{
+ .theme-title{
     position: absolute;
     width: 100%;
     text-align: center;
-    height: auto;
-    top: 0;
-    left: 0;
+    letter-spacing: 2px;
+    color: rgb(255, 255,255);
+    top: 30%;
  }
+ .section {
+    text-align: justify;
+ }
+ #section-2 p, #right {
+    text-align: right;
+ }
+ 
+ .main-container {
+    width: 80%;
+    margin: 0 auto;
+ }
+ .bottom {
+    width: 70%;
+    position: fixed;
+    height: 75px;
+    background-color: rgb(8, 22, 27);
+    color: rgb(255, 255,255);
+    text-align: center;
+    bottom: 0;
+ }
+ .bottom h3 {
+    margin: 20px;
+ }
+ 
+ .section-title {
+    margin: 20px 0;
+    letter-spacing: 2px;
+    color: rgb(34, 90,100);
+ }
+ 
+ 

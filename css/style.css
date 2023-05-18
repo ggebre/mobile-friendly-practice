@@ -41,7 +41,7 @@
  .main-container, .container{
    background-color: white;
  }
- .bottom {
+ footer {
     width: 76%;
     position: fixed;
     height: 60px;

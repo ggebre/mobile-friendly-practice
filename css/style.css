@@ -55,22 +55,27 @@
     margin-bottom: 20px;
     color: rgb(34, 90,100);
  }
-
  @media screen and (min-width: 480px){
-   .main-container, .container{
-      background-color: blue;
-    }
- }
-
+   
+   .theme-title h1 {
+     color: green;
+   }
+}
+ 
  @media screen and (min-width: 786px){
-   .main-container, .container{
-      background-color: red;
+   
+    .theme-title h1 {
+      color: blue;
     }
  }
+ 
  @media screen and (min-width: 1024px){
-   .main-container, .container{
-      background-color: cyan;
-    }
- }
+   
+   .theme-title h1 {
+     color: red;
+   }
+}
+ 
+ 
  
  
